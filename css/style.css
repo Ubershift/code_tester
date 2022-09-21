@@ -1,0 +1,281 @@
+
+html {
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: 100% auto;
+    background-color: #1F1F23;
+}
+
+body {
+    width: calc(100% - 100px);
+    margin: 2.5vw auto auto auto;
+}
+
+h1, h2 {
+    color: #9146FF;
+    text-align: center;
+}
+
+textarea {
+    border: 2px solid rgb(161, 161, 161);
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    font-size: 16px;
+    padding: 12px 20px;
+    /* color: ; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    resize: none;
+}
+
+textarea:focus {
+    outline: 2px solid #13a1ff;
+    border : 2px solid #13a1ff;
+}
+
+/*********** HEADER ***********/
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid white; */
+}
+
+.titleHeader {
+    display: flex;
+    font-size: 3rem;
+    color: rgb(211, 211, 211);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/*********** MAIN ***********/
+
+#mainbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*********** HTML & CSS EDITORS ***********/
+/***********HTML***********/
+.boxhtmlcss {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxhtmlbalandtxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_htmlbal {
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.htmllogobox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: ; */
+}
+
+.htmllogo {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.boxprogresscounterhtml {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.progressbarboxhtml {
+    width: 80%;
+    height: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    /* border: 1px white; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.progressbarhtml {
+    height: 100% ;
+    width: 0.5%;
+    background-color: rgb(41, 214, 35);
+    border-radius: 10px;
+    /* display: flex; */
+}
+
+#counterhtml {
+    color: white;
+    width: auto;
+    height: 100%;
+    margin-top: 0;
+    text-align: center;
+}
+
+.divtxt {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#htmlbal {
+    width: 70px;
+    height: 50px;
+}
+
+/***********CSS***********/
+
+.csslogobox {
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: ; */
+}
+
+.csslogo {
+    width: 40%;
+    margin-bottom: 5px;
+}
+
+.fontButton {
+    margin-top: 5px;
+}
+
+.balBold {
+    font-weight: bold;
+}
+
+.balItalic {
+    font-style: italic;
+}
+
+.balUnderline {
+    text-decoration: underline;
+}
+
+.boxinputs {
+    /* width: auto; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inputslist {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.boxcssbalandtxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn_cssbal {
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxprogresscountercss {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.progressbarboxcss {
+    width: 80%;
+    height: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    /* border: 1px white; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.progressbarcss {
+    height: 100% ;
+    width: 0.5%;
+    background-color: rgb(41, 214, 35);
+    border-radius: 10px;
+    /* display: flex; */
+}
+
+#countercss {
+    color: white;
+    width: auto;
+    height: 100%;
+    margin-top: 0;
+    text-align: center;
+}
+
+#cssbal {
+    width: 70px;
+    height: 50px;
+}
+
+/*********** LIVE RESULT ***********/
+
+.resultbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.resultArea {
+    width: 90%;
+    height: 300px;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+
+#result {
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+
+.resultTitle {
+    font-size: 2rem;
+    color: rgb(211, 211, 211);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

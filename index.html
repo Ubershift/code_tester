@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Tablettes & Mobiles -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <!-- SCRIPTS -->
+        <script src="./js/commun.js" defer></script>
+    </head>
+
+    <header>
+        <span class="titleHeader">
+            <p> &lt;..&gt; CODE TESTER &lt;../&gt; </p>
+        </span>
+    </header>
+    <body>
+        <div id="mainbox">
+                        
+            <div class="boxhtmlcss">
+                <div class="boxhtmlbalandtxt">
+                    <div class="btn_htmlbal">
+                        <span class="htmllogobox">
+                            <img class="htmllogo" src="img/html-5 (1).png" alt="HTML">
+                        </span>
+                        <input type="button" id="htmlbal" class="balh1" value="<h1>">
+                        <input type="button" id="htmlbal" class="balh2" value="<h2>">
+                        <input type="button" id="htmlbal" class="balh3" value="<h3>">
+                        <input type="button" id="htmlbal" class="baldiv" value="<div>">
+                        <input type="button" id="htmlbal" class="balspan" value="<span>">
+                        <input type="button" id="htmlbal" class="balbutton" value="<button>">
+                    </div>
+                    <div class="divtxt">
+                        <textarea name="text" id="textareahtml" value="" cols="50" rows="10" maxlength="200" spellcheck="false"></textarea>
+                        <div class="boxprogresscounterhtml">
+                            <div class="maxLengthHtml">
+                                <label for="htmlmaxlength"></label>
+                                    <select id="maxLengthHtmlList" name="">
+                                        <option value="200">200</option>
+                                        <option value="250">250</option>
+                                        <option value="300">300</option>
+                                    </select>
+                            </div>
+                            <div class="progressbarboxhtml">
+                                <div class="progressbarhtml"></div>
+                            </div>
+                            <div id="counterhtml">200</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="boxcssbalandtxt">
+                    <div class="boxinputs">
+                        <span class="csslogobox">
+                            <img class="csslogo" src="img/css-3.png" alt="CSS">
+                        </span>
+                        <div class="inputslist">                
+                            <div class="selectbox">
+                                <label for="tcolor"></label>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <select id="colorList" name="Color">
+                                        <option value="">--Choose a color--</option>
+                                        <option value="Black">Red</option>
+                                        <option value="Blue">Blue</option>
+                                        <option value="Purple">Purple</option>
+                                        <option value="Pink">Green</option>
+                                        <option value="Brown">Brown</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Orange">Orange</option>
+                                        <option value="Yellow">Yellow</option>
+                                        <option value="Purple">Green</option>
+                                    </select>
+                            </div>
+                            <div class="fontButton">
+                                <input type="button" id="fontBal" class="balBold" value="b">
+                                <input type="button" id="fontBal" class="balItalic" value="i">
+                                <input type="button" id="fontBal" class="balUnderline" value="u">
+                            </div>
+                        </div>
+                        <div class="btn_cssbal">
+                            <input type="button" id="cssbal" class="balwidth" value="Width">
+                            <input type="button" id="cssbal" class="balheight" value="Height">
+                            <input type="button" id="cssbal" class="balborder" value="Border">
+                            <input type="button" id="cssbal" class="balpad" value="Padding">
+                            <input type="button" id="cssbal" class="balmargin" value="Margin">
+                            <input type="button" id="cssbal" class="balflex" value="Flex">
+                        </div>
+                    </div>
+                    <div class="divtxt">
+                        <textarea name="text" id="textareacss" cols="50" rows="10" maxlength="200" spellcheck="false"></textarea>
+                        <div class="boxprogresscountercss">
+                            <div class="maxLengthCss">
+                                <label for="cssmaxlength"></label>
+                                    <select id="maxLengthCssList" name="">
+                                        <option value="200">200</option>
+                                        <option value="250">250</option>
+                                        <option value="300">300</option>
+                                    </select>
+                            </div>
+                            <div class="progressbarboxcss">
+                                <div class="progressbarcss"></div>
+                            </div>
+                            <div id="countercss">200</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resultbox">
+                <span class="resultTitle"><p>&lt;CODE RESULT/&gt;</p></span>
+                <div class="resultArea">
+                    <style type="text/css" id="resultCss"></style>
+                    <p id="result"></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
